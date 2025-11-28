@@ -1,2 +1,111 @@
 # First-Webpage
 That is my first small project on Github using HTML and CSS . Basically it is a frontend related project 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="super.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans&family=Merriweather&family=Ubuntu&display=swap" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+    <div id="one" style="font-family: Ubuntu, sans-serif; font-size:x-large">
+        <b>Flip Boom's Dhamaka Offer : <button id="batan2"> SHOP NOW </button></b>
+    </div>
+    <div id="two">
+        
+       <p id="twopoint" style="font-family: Ubuntu, sans-serif;"> <i>It's final week to save</i></p>
+      <select name="country" id="Country">
+    <option value="india">India</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+    <option value="canada">Canada</option>
+    <option value="australia">Australia</option>
+    <option value="japan">Japan</option>
+    <option value="korea">Korea</option>
+    <option value="china">China</option>
+</select>      
+    </div>
+
+<div id="three">
+    <h3 style="font-family: Dancing Script, cursive; font-size:xx-large">Design Pixel</h3>
+    <div id="threepoint">
+    <select name="choose" id="choose" style="width:200px; height:45px;">
+        <option value="all">ALL</option>
+        <option value="Branding">Branding</option>
+        <option value="Digital">Digital Planning</option>
+        <option value="Graphic ">Graphic</option>
+        <option value="Social">Social Media</option>
+    </select>
+    <input type="text" placeholder="Search For Product" style="width:500px; height:41px; text-align:center">
+    </div>
+    <div id="threepointone">
+    <a href="https://designpixie.wixsite.com/access/"><img src="heart.png" height="40px"></a>
+    <a href="https://designpixie.wixsite.com/access/"><img src="avator.png" height="40px"></a>
+    <a href="https://designpixie.wixsite.com/access/"><img src="bag.png" height="40px"></a>
+    </div>
+    </div>
+
+<div id="char">
+    
+    <p>HOME</p>
+   <p>NEW ARRIVALS</p>
+<div class="dropdown">
+  <span>SHOP BY ▼</span>
+  <div class="dropdown-content">
+    <a href="#">SPOCIFY THEME</a>
+    <a href="#">WIX TAMPLATES</a>
+    <a href="#">PLAYFULL FONTS</a>
+    <a href="#">BRSHFULL FONTS</a>
+    <a href="#">SCRIPT FONTS</a>
+  </div>
+</div>
+
+   <div id="panch"> <span>COLLECTION ▼</span>
+    <div id="panch-content">
+        <a href="#">VIEW All</a>
+        <a href="#">CREATIVITY</a>
+        <a href="#">LUX</a>
+        <a href="#">PRETTY</a>
+        <a href="#">PLAYFULL</a>
+        <a href="#">EARTH</a>
+        <a href="#">BOHO</a>
+    </div>
+</div>
+    <div id="chheh" style="padding-right:300px"><span>MORE ▼</span>
+    <div id="chheh-content">
+        <a href="#">ABOUT</a>
+        <a href="#">YOUR WORTHLIST</a>
+        <a href="#">HOW TO START A WEBSITE</a>
+        <a href="#">BLOG</a>
+        <a href="#">DESIGN SHOWCASE</a>
+        <a href="#">SBSCRIBE TO PIXCEL MAIL</a>
+    </div>
+    </div>
+    <p><b>Help Center</b></p>
+    <p><b>Product License</b></p>
+   <button id="batan">✉ Contact</button>    
+</div>
+<div id="saat">
+    <section style="padding-left:100px; font-family: 'Fira Sans', sans-serif; font-size:x-large">30% OFF EVERYTHING</section>
+    <P style="font-size:large"><i>auto applied in card + <b>FREE Pixie Pack Offer</b></i></P>
+    <section style="padding-right:100px"><button id="sakura" style=>WHAT'S INSIDE</button></section>
+
+</div>
+<PRE ID="SATURO"><b>30+ PASTEL COLOR PALATTES WITH 
+  COLOR CODES OR BRANDING </b></PRE>
+
+  <div id="gojo"><img src="web.JPG" alt="" height="1200px">
+</div>
+<p class="mc">Pastel colors are a family of soft, light, and muted hues created by adding a significant amount of white to a pure color.This reduces the color's intensity and makes it <b>appear gentle</b>, airy, and soothing. Because of their low saturation and high brightness, pastel tones carry a calming and delicate visual quality that feels easy on the eyes. They are often associated with peace, innocence, and subtle elegance. Common examples include pastel pink, baby blue, mint green, lavender, and peach — each offering a smooth, almost dreamy appearance.</p><p class="mc2"> Pastels are widely used in art, fashion, interior design, and branding because they evoke a sense of comfort and approachability. In art, pastel pigments are used to create soft textures, while in fashion and decor, these colors help create calm, minimal, and aesthetically pleasing environments. Psychologically, pastel colors can reduce stress and promote relaxation, which is why they are frequently used in wellness spaces, nurseries, and modern design themes. Overall, pastels combine visual softness with emotional warmth, making them versatile and appealing across many creative fields.</p>
+</body>
+</html>
