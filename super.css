@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+
+}
+#one{
+   
+    text-align: center;
+    padding:20px;
+    background-color: rgb(248, 143, 160);
+}
+#two{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color: pink;
+}
+#twopoint{
+    margin-left: 50px;
+}
+#Country{
+    margin-right: 50px;
+    height: 25px;
+    width: 80px;
+}
+#three{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    width:auto;
+    margin: 30px;
+}
+#threepoint{
+    display:flex;
+    justify-content: space-evenly;
+    font-family: "Ubuntu", sans-serif;
+}
+#threepoint{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #ffe4f7;  /* full div background */
+}
+
+#threepoint input{
+    background-color: #ffe4f7;  /* input background */
+    font-family: inherit;
+}
+
+#threepoint select{
+    font-family: inherit;
+    background-color: #ffe4f7;  /* dropdown background */
+}
+
+#threepointone{
+    display:flex;
+    height:40px;
+    padding-right: 50px;
+}
+#threepoint :hover{
+    border:1px black solid;
+}
+#char{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(249, 134, 153);
+    height: 50px;
+    width:auto;
+    align-items: center;
+    font-family: Arial;
+    font-size: 15px;
+}
+#nochos{
+    text-decoration: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.dropdown span {
+  padding: 8px 5px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgb(239, 226, 226);
+  min-width: 150px;
+  border: 1px solid #ccc;
+  padding: 10px 0;
+  z-index: 100;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: black;
+  height: auto;
+  width: 150px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.dropdown-content a:hover{
+    color:rgb(237, 69, 97);
+}
+
+#panch{
+    cursor: pointer;
+}
+#panch-content{
+    display:none;
+    position:absolute;
+    background:rgb(239, 226, 226) ;
+    min-width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    z-index: 100;
+}
+#panch-content a {
+
+    padding: 8px 15px;
+  text-decoration: none;
+  color: black;
+  display:block;
+}
+#panch:hover #panch-content{
+    display: block;
+  font-family:Arial, Helvetica, sans-serif
+}
+#panch span {
+  padding: 8px 5px;
+  display: inline-block;
+}
+#panch-content a:hover{
+    color:rgb(237, 69, 97);
+}
+#chheh{
+    cursor:pointer;
+}
+#chheh-content{
+    position: absolute;
+    background:rgb(239, 226, 226) ;
+    min-width: 150px;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    z-index: 100;
+    display:none;
+
+}
+#chheh-content a{
+    text-decoration: none;
+    display:block;
+    padding: 8px 15px;
+    color: black;
+}
+#chheh span {
+  padding: 8px 5px;
+  display: inline-block;
+}
+#chheh:hover #chheh-content{
+    display: block;
+  font-family:Arial, Helvetica, sans-serif
+}
+#chheh-content a:hover{
+    color:rgb(237, 69, 97);
+}
+#batan{
+    font-size: larger;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 190, 69);
+    color:white;
+    cursor:pointer;
+}
+#batan2{
+    font-size: large;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 190, 69);
+    color:white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position:relative;
+    left: 20px;
+    cursor:pointer;
+}
+#saat{
+    display:flex;
+    padding: 25px;
+    background: rgb(232, 153, 248);
+    justify-content: space-evenly;
+}
+#sakura{
+    font-size: larger;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(255, 190, 69);
+    color:white;
+    cursor:pointer;
+}
+#SATURO{
+    margin:50px;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 190, 69);
+    text-align:center;
+}
+#gojo{
+    justify-content: center;
+    display:flex;
+}
+#choose{
+    font-size: medium;
+}
+.mc{
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-top: 50px;
+    text-align: justify;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mc2{
+     margin-left: 330px;
+    margin-right: 330px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
